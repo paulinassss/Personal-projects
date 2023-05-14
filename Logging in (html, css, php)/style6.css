@@ -1,0 +1,61 @@
+body 
+{
+  background-color: #c1b3a3;
+}
+.maindiv
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container
+{
+  display: table-row;
+}
+.col
+{
+  font-family: 'Courier New', 'monospace',  sans-serif;
+  color: rgb(51, 48, 48);
+  display: table-cell;
+}
+.window
+{
+  background-color: #e0d9d2;
+  box-shadow: 3px 3px 6px 4px rgba(109, 107, 106, 0.237);
+  border: 0;
+  border-radius: 15px;
+  transition: background-color 0.3s;
+}
+
+.window:hover
+{
+  background-color: #faede3;
+}
+.window:active
+{
+  background-color: #e2d3c1;  
+}
+.formul
+{
+  color: #f0e4d7;
+  background-color: rgba(68, 68, 68, 0.632);
+  font-size: 25px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+a
+{
+  text-align: center;
+  background-color: #b6a898b8;
+  font-family: 'Courier New', 'monospace',  sans-serif;
+  color: rgb(51, 48, 48);
+}
+p
+{
+margin: 4px;
+}
+.cl_sub
+{ 
+  margin-top: 40px;
+  text-align: center;
+}
